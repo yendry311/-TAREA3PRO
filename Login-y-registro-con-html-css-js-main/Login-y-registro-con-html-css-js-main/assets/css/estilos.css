@@ -118,7 +118,7 @@ main{
     outline: none;
 }
 
-.contenedor__login-register form button{
+.contenedor__login-register form button {
     padding: 10px 40px;
     margin-top: 40px;
     border: none;
@@ -128,8 +128,15 @@ main{
     cursor: pointer;
     color: white;
     outline: none;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.contenedor__login-register form button:hover {
+    background-color: #005bb5;
+    transform: translateY(-3px);
+}
 
 
 
